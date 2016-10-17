@@ -3,10 +3,10 @@ body {
   margin: 0;
   border: none;
   box-sizing: border-box;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;*/
   background-image: url("./img/main-bg.jpeg");
   background-position: center;
   background-attachment: fixed;
@@ -14,34 +14,127 @@ body {
   background-size: cover;
 }
 
-header {
+div {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+#everything {
+  box-sizing: border-box;
+  /*height: 100vh;
+  width: 100vw;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#desktopHeader {
+  display: none;
+}
+
+#mobileHeader {
   height: 10vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header i {
-  color: red;
+  color: white;
 }
 
 #menuIcon {
-  float: left;
   border: 1px solid white;
-  height: 10vh;
-  width: 10vh;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 3em;
 }
 
 #contact {
   float: right;
-  border: 1px solid white;
+  margin-right: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 10vh;
   width: 10vh;
 }
 
 main {
+  text-align: center;
+  height: 70vh;
+  width: 70vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+main h1 {
+  font-size: 10em;
+  margin: 0;
+}
+
+main h3 {
+  font-size: 3em;
+  margin: 0;
+}
+
+footer {
   height: 10vh;
-  width: 10vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+footer i {
+  color: gray;
+}
+
+#arrowContainer {
+  height: 8em;
+  width: 8em;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 701px) {
+  #mobileHeader {
+    display: none;
+  }
+
+  #desktopHeader {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h3 {
+    font-size: 3em;
+    color: white;
+  }
+
+  #home {
+    margin-left: 3em;
+  }
+
+  #story {
+    margin-right: 3em;
+  }
 }

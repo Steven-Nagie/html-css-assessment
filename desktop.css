@@ -1,0 +1,16 @@
+#mobileHeader {
+  display: none;
+}
+
+#desktopHeader {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+}
+
+header h3 {
+  font-size: 3em;
+}

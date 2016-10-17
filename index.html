@@ -4,16 +4,24 @@
     <meta charset="utf-8">
     <title>Nagie HTML/CSS Assessment</title>
     <link rel="stylesheet" href="./style.css" media="screen" title="mobile">
+    <link rel="stylesheet" href="./desktop.css" media="(min-width: 701px)" title="no title">
+    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
+    <div id="everything">
+    <header id="mobileHeader">
       <div id="menuIcon">
-        <i class="fa fa-bars" aria-hiddden="true"></i>
+        <i class="fa fa-bars fa-2x" aria-hiddden="true"></i>
       </div>
       <div id="contact">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
       </div>
+    </header>
+    <header id="desktopHeader">
+      <h3 id="home">Home</h3>
+      <h3>About</h3>
+      <h3 id="story">Story</h3>
     </header>
 
     <main>
@@ -24,7 +32,10 @@
     </main>
 
     <footer>
+      <div id="arrowContainer">
+        <i class="fa fa-long-arrow-down fa-3x" aria-hidden="true"></i>
+      </div>
     </footer>
-
+    </div>
   </body>
 </html>
