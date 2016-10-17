@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./img/main-bg.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+}
+
+header i {
+  color: red;
+}
+
+#menuIcon {
+  float: left;
+  border: 1px solid white;
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  float: right;
+  border: 1px solid white;
+  height: 10vh;
+  width: 10vh;
+}
+
+main {
+
+  height: 10vh;
+  width: 10vw;
+}
