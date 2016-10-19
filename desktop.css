@@ -1,16 +1,25 @@
-#mobileHeader {
-  display: none;
-}
 
-#desktopHeader {
-  height: 10vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: red;
-}
+  #mobileHeader {
+    display: none;
+  }
 
-header h3 {
-  font-size: 3em;
-}
+  #desktopHeader {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h3 {
+    font-size: 3em;
+    color: white;
+  }
+
+  #home {
+    margin-left: 3em;
+  }
+
+  #story {
+    margin-right: 3em;
+  }
